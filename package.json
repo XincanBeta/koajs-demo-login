@@ -14,7 +14,9 @@
     "koa-router": "^5.1.2",
     "koa-static": "^1.4.9",
     "lodash": "^3.10.1",
-    "uid-safe": "^2.0.0"
+    "uid-safe": "^2.0.0",
+    "async": "^1.4.2",
+    "mysql": "^2.9.0"
   },
   "devDependencies": {
     "co-mocha": "^1.1.2",
