@@ -1,14 +1,11 @@
-var mysql = require('mysql');
+var mysql = require('mysql-co');
 
 module.exports = {
   getConnection: function() {
     return mysql.createConnection({
-      host: 'localhost',
-      port: 3306,
       database: 'test',
       user: 'admin',
       password: 'admin'
     });
   }
 }
-
